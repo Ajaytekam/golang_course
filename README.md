@@ -17,7 +17,16 @@ go 1.25.1
 require github.com/ajaytekam/golang_course latest
 ```
 
-Create main.go and run the command `go mod tidy` it will download the pcakage from github.
+Create main.go put below code and run the command `go mod tidy` it will download the pcakage from github.
+
+```
+package main
+
+import "github.com/ajaytekam/golang_course"
+
+func main() {}
+```
+
 
 Edit main.go and put below code
 
